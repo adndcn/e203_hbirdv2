@@ -1,0 +1,4 @@
+{
+    "verilog.ctags.path": "D:\\software\\ctags-p6.2.20260315.0-x64\\ctags.exe",
+    "ctags-companion.command": "ctags -R --fields=+nKz --langmap=SystemVerilog:+.v"
+}
