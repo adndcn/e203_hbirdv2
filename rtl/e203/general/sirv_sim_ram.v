@@ -32,13 +32,13 @@ module sirv_sim_ram
   parameter AW = 32 
 )
 (
-  input             clk, 
-  input  [DW-1  :0] din, 
-  input  [AW-1  :0] addr,
-  input             cs,
-  input             we,
-  input  [MW-1:0]   wem,
-  output [DW-1:0]   dout
+  input             clk, //时钟信号
+  input  [DW-1  :0] din,  //输入数据
+  input  [AW-1  :0] addr, //地址输入
+  input             cs, //片选信号
+  input             we, //写使能信号
+  input  [MW-1:0]   wem, //写使能掩码
+  output [DW-1:0]   dout //输出数据
 );
 
     reg [DW-1:0] mem_r [0:DP-1];

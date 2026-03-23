@@ -49,10 +49,10 @@ module e203_itcm_ram(
       `ifndef E203_HAS_ECC//{
     .FORCE_X2ZERO(0),
       `endif//}
-    .DP(`E203_ITCM_RAM_DP),
-    .DW(`E203_ITCM_RAM_DW),
-    .MW(`E203_ITCM_RAM_MW),
-    .AW(`E203_ITCM_RAM_AW) 
+    .DP(`E203_ITCM_RAM_DP), //数据深度, 8192行
+    .DW(`E203_ITCM_RAM_DW), //数据宽度, 64位
+    .MW(`E203_ITCM_RAM_MW), //写使能宽度, 8位
+    .AW(`E203_ITCM_RAM_AW)  //地址宽度, 13位
   ) u_e203_itcm_gnrl_ram(
   .sd  (sd  ),
   .ds  (ds  ),
