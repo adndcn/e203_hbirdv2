@@ -18,6 +18,9 @@
 | **第7章** | [ch7_debug.md](ch7_debug.md) | 调试系统：JTAG、DTM、DM、halt/resume 机制 |
 | **第8章** | [ch8_soc.md](ch8_soc.md) | SoC 集成：总线路由、CLINT、PLIC、Boot 流程 |
 | **附录** | [appendix.md](appendix.md) | 快速参考：参数表、信号命名、文件速查、CSR 表 |
+| **第9章** | [ch9_ifu_code.md](ch9_ifu_code.md) | IFU 代码精读：逐行解析 ifetch/litebpu/minidec/ift2icb，含跨模块信号溯源 |
+| **第10章** | [ch10_exu_code.md](ch10_exu_code.md) | EXU 代码精读：逐行解析 decode/regfile/oitf/disp/dpath/wbck/commit，含跨模块信号溯源 |
+| **第11章** | [ch11_lsu_code.md](ch11_lsu_code.md) | LSU 代码精读：逐行解析 AGU/lsu_ctrl，含地址路由/写掩码/符号扩展/AMO 状态机 |
 
 ---
 
